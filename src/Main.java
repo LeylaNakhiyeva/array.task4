@@ -6,7 +6,9 @@ public class Main {
         System.out.print("massivin uzunlugu: ");
         int n= sc.nextInt();
         System.out.println();
-        System.out.println("massivin elementleri: ");
+     if(n!=0) {
+           System.out.println("massivin elementleri: ");
+       }
         int [] arr= new int[n];
         for (int i=0; i<arr.length; i++){
             arr[i]= sc.nextInt();
